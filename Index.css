@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+body{
+    background-color: rgba(248, 236, 126, 0.932);
+}
+
+img.naranja2{
+    height: 1%;
+    width: 1%;
+}
+
+nav.Mandarinas{
+    align-items: center;
+    background-color: rgba(255, 255, 0, 0.932);
+    border: red 7px solid;
+    font-family: verdana;
+
+}
+
+table.table{
+    text-align: center;
+
+    color: orange;
+    font-family: verdana;
+}
+
+table.td{
+    width: auto;
+    background-color: yellow;
+    color: orangered;
+    border-color: orangered;
+}
+
+p.salmon{
+    position: absolute;
+    top: 20%;
+    left: 21%;
+    width: 55%;
+    height: 30%;
+    z-index: 2;
+    border: orangered 5px solid;
+    background-color: hsl(115, 89%, 81%);
+    text-align: center;
+    background-position: left;
+    background-repeat: repeat-y, repeat-x;
+    background:url(naranja.png) top left repeat-y, hsl(32, 85%, 64%)  url(naranja.png) top right repeat-y;
+    background-size: 10% 25%;
+    font-family: Verdana;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    color: orangered;
+    font-family: verdana;
+    z-index:3;
+  
+}
+
+
+p.amarillo{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 45%;
+    height: 25%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: lightgreen 5px solid;
+    background-color: hsl(69, 96%, 47%);
+    text-align: left;
+    font-family: Verdana;
+    font-family: verdana;
+    letter-spacing: 5px;
+    color: rgb(165, 126, 19); 
+    z-index: 2;
+    
+}
+
+p.azul{
+    position: absolute;
+    top: 40%;
+    right: 5%;  
+    width: 45%;
+    font-family: verdana;
+    height: 25%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: rgb(54, 115, 207) 5px solid;
+    background-color: hsl(192, 50%, 64%);
+    text-align: right;
+    font-family: Verdana;
+    color: rgb(255, 175, 55); 
+    z-index: 2;
+    
+}
+
+h1{
+    color: white;
+    font-family: cursive;
+    text-shadow: orangered 6px 0;
+    text-align: center;
+    background-color :hsl(32, 85%, 64%);
+
+
+}
+
+div.Ventajas{
+    background-color:hsl(32, 85%, 64%);
+    color: blue;
+}
+
+footer{
+    background-color: rgb(240, 236, 21);
+    text-align: center;
+    color: orangered;
+}
+
+p.MasNaranjas{
+    background: url(naranja2.svg);
+    background-repeat: repeat-x;
+}
+
+p:hover{
+    z-index: 2;
+}
